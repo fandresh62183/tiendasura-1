@@ -1,0 +1,74 @@
+// QUEMAR (HARD CORE) LA BD
+let productos=[
+    {
+        nombre:"CARBONERO BONSAI",
+        fotos:["https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/CARBONERO01.webp?alt=media&token=922e2d9f-7779-463d-abba-dab60b6b40d2","https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/CARBONEROFLORECIDO02.jpg?alt=media&token=36fc5b50-86b8-4269-b254-af90e23b7834"],
+        precio:0,
+        popularidad:0,
+        descripcion:""
+    },
+    {
+        nombre:"CERINZO BONSAI",
+        fotos:["https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/CERINZO03.webp?alt=media&token=fef89bb6-6c2c-46a1-b031-90e366b0b517","https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/cerinzoflorecido04.jpg?alt=media&token=8620cf44-0932-4461-b6af-2b42693a8678"],
+        precio:78000,
+        popularidad:0,
+        descripcion:""
+    },
+    {
+        nombre:"GUAYACAN BONSAI",
+        fotos:["https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/GUAYACAN_05.webp?alt=media&token=257579e1-a0c9-4be5-b0b1-7b6321153d01","https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/GUAYACAN_06.webp?alt=media&token=bfb87c87-51da-4bd0-9f11-7a817b6ed9cb"],
+        precio:0,
+        popularidad:0,
+        descripcion:""
+    },
+    {
+        nombre:"",
+        fotos:["",""],
+        precio:0,
+        popularidad:0,
+        descripcion:""
+    },
+    {
+        nombre:"",
+        fotos:[],
+        precio:0,
+        popularidad:0,
+        descripcion:""
+    },
+    {
+        nombre:"",
+        fotos:[],
+        precio:0,
+        popularidad:0,
+        descripcion:""
+    },
+    {
+        nombre:"",
+        fotos:[],
+        precio:0,
+        popularidad:0,
+        descripcion:""
+    },
+    {
+        nombre:"",
+        fotos:[],
+        precio:0,
+        popularidad:0,
+        descripcion:""
+    },
+    {
+        nombre:"",
+        fotos:[],
+        precio:0,
+        popularidad:0,
+        descripcion:""
+    },
+    {
+        nombre:"",
+        fotos:[],
+        precio:0,
+        popularidad:0,
+        descripcion:""
+    }
+
+]
