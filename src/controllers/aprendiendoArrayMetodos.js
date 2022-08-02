@@ -1,4 +1,13 @@
-// QUEMAR (HARD CORE) LA BD
+// let numeros  = [25,60,80,100,25,60,80,100]
+// // Recorre un arreglo
+// //Esculcar/obtener un elemento
+// // * ForEach
+// // 1. forEach
+// numeros.forEach(function(numero){
+//     console.log(numero)
+// })
+
+
 let productos=[
     {
         nombre:"Bonsai de Junipero",
@@ -8,7 +17,7 @@ let productos=[
         descripcion:"Nativo del Himalaya, China, nordeste de Afganistán, este a oeste de Yunnan en el sudoeste de China, y con subpoblaciones aisladas en el norte al oeste de Gansu, y este de Fujian. Crece a altitudes de 1.600-4.900 msnm. El Juniperus es un género de más de treinta especies de coníferas arbustivas muy populares y adecuadas para ser utilizadas como Bonsai. La especie clásica es el ‘enebro chino’ (Juniperus chinensis), también populares son: Juniperus Squamata, Sargentii, Sabina, Rigida y Communis. La gama de colores de follaje oscila entre los verdes con tonos azul oscuro y los verdes claros. Estos árboles son muy adecuados para la creación de madera muerta (jin y shari)"
     },
     {
-        nombre:"bosai Haematoxylum campechianum",
+        nombre:"bosai Haematoxylum",
         fotos:["https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%233.jpg?alt=media&token=defdfe32-3c68-416f-9506-0b916921424e","https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%234.jpg?alt=media&token=086b416f-14ac-4153-a0d7-5fe377a0b9dd"],
         precio:15000000,
         popularidad:5,
@@ -18,7 +27,7 @@ let productos=[
         nombre:"Bonsai de Sombrero",
         fotos:["https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%235.jpg?alt=media&token=4870d0ad-54f4-42be-b95d-7f78e45c5730","https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%236.jpg?alt=media&token=9e67f9fc-0b58-4f2b-8f45-2c8927fa3584"],
         precio:4,
-        popularidad:"Bonsai de Sombrero Chino de 50 años y altura de 70 cm",
+        popularidad:5,
         descripcion:"La especie es originaria de Arunachal Pradesh, Assam, Bhutan, Darjeeling, Himachal  radesh, India, Jammu-Kashmir, Myanmar, Nepal, Sikkim y Uttaranchal, donde vive en las pendientes del Himalaya entre los 900 y 3000 m de altitud.El género está dedicado al botánico danés Johan Theodor Holmskiold (1731-1793); el  nombre de la especie es el adjetivo latino “sanguineus, a, um”= color sangre, con obvia referencia. Nombres comunes: chinaman’s hat, chinese hat plant, cup-and-saucer-plant, hat plant, mandarin’s hat, parasol flower (inglés); chapeau chinois (francés); cappello cinese(italiano); chapéu-chinês, chapéu-chinês-amarelo,chapéu-chinês-vernelho, chapéu-de-mandarim(portugués); bonete chino, paragüita chino, platillo, sombrilla china español).La Holmskioldia sanguinea Retz. (1791) es un arbusto siempre verde leñoso alto hasta cerca 5 m con largas. La Holmskioldia sanguinea es un arbusto tropical de 5 m con insólitas inflorescencias © Giuseppe Mazza ramas arqueadas, las jóvenes ligeramente pubescentes y en sección prácticamente cuadrangular. Las hojas son opuestas, ovadas o deltoides, con ápice largamente puntiagudo, ligeramente pubescentes, largas 5-12 cm y anchas 3-8 cm, con margen entero o ligeramente dentado, de color verde oscuro."
     },
     {
@@ -47,7 +56,7 @@ let productos=[
         fotos:["https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%2313.jpg?alt=media&token=6715395b-7886-4dda-a478-e2c6e56182c7","https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%2314.jpg?alt=media&token=d7afd9ce-2bac-442a-94ed-e8f22fa80846"],
         precio:5000000,
         popularidad:5,
-        descripcion:"Originario de Japón, el Kingsville Boxwood es un árbol de crecimiento extremadamente lento. Tiene la hoja más pequeña de todos los bojes, razón por la cual es buscada para bonsai. El Kingsville Boxwood es un árbol de hoja perenne con hojas de color verde claro y tiene excelentes características de ramificación.Clima: Atlántico – Continental – Mediterráneo – Montañoso.Resistente a: Heladas Medias – Heladas Suaves – Suelo Alcalino.Tipo de suelo: pH Neutro – pH Alcalino – Suelo bien drenado – Suelo fértil – Textura arcillosa – Textura arenosa – Textura franca.Porte: Arbusto.Tipo: Hoja Perenne.Tipo de mantenimiento: Medio.Exposición: Semi-sol – Sombra luminosa – Sol.Necesidad de agua: Cantidad moderada de agua.Altura adulta: De 1-2m.Anchura adulta: 1-2m.Decoraciones de color: Amarillo y dorado – Verde claro – Verde Oscuro. decorativa por estación: Para Invierno – Para Otoño – Para Primavera – Para Verano.Floración: Primavera.Fructificación: Verano.Longevidad: De 30 – 100 años".
+        descripcion:"Originario de Japón, el Kingsville Boxwood es un árbol de crecimiento extremadamente lento. Tiene la hoja más pequeña de todos los bojes, razón por la cual es buscada para bonsai. El Kingsville Boxwood es un árbol de hoja perenne con hojas de color verde claro y tiene excelentes características de ramificación.Clima: Atlántico – Continental – Mediterráneo – Montañoso.Resistente a: Heladas Medias – Heladas Suaves – Suelo Alcalino.Tipo de suelo: pH Neutro – pH Alcalino – Suelo bien drenado – Suelo fértil – Textura arcillosa – Textura arenosa – Textura franca.Porte: Arbusto.Tipo: Hoja Perenne.Tipo de mantenimiento: Medio.Exposición: Semi-sol – Sombra luminosa – Sol.Necesidad de agua: Cantidad moderada de agua.Altura adulta: De 1-2m.Anchura adulta: 1-2m.Decoraciones de color: Amarillo y dorado – Verde claro – Verde Oscuro. decorativa por estación: Para Invierno – Para Otoño – Para Primavera – Para Verano.Floración: Primavera.Fructificación: Verano.Longevidad: De 30 – 100 años"
     },
     {
         nombre:"Bonsai de Junipero",
@@ -72,3 +81,66 @@ let productos=[
     }
 
 ]
+let fila =document.getElementById("fila")
+
+//recorriendo el arreglo
+productos.forEach(function(producto){
+    //creando un div desde js
+    let columna = document.createElement("div")
+    columna.classList.add("col")
+
+    //creando una tarjeta
+    let tarjeta = document.createElement("div")
+    tarjeta.classList.add("card","shadow","text-center","h-100")
+
+    //creando una imagen
+    let imagen = document.createElement("img")
+    imagen.classList.add("img-fluid","w-100","p-5")
+    imagen.src = producto.fotos[0]
+
+    //creando precio
+    let precio = document.createElement("p")
+    precio.classList.add("fw-bold")
+    precio.textContent ="$"+ producto.precio
+
+
+
+    //creando  popularidad
+    let  popularidad = document.createElement("p")
+    popularidad.classList.add("fw-bold")
+    popularidad.textContent = producto.popularidad
+
+    //creando descripcion
+let descripcion = document.createElement("p")
+descripcion.classList.add("text-danger","d-none")
+descripcion.textContent = producto.descripcion
+
+    //detectando evento del mouse
+    imagen.addEventListener("mouseover",function(){
+        imagen.src = producto.fotos[1]
+    })
+    imagen.addEventListener("mouseleave",function(){
+        imagen.src = producto.fotos[0]
+    })
+
+    //definiendo padres e hijos
+    tarjeta.appendChild(imagen)
+    columna.appendChild(tarjeta)
+    fila.appendChild(columna)
+    
+    //creando un titulo
+    let titulo = document.createElement("h3")
+    titulo.classList.add("fw-bold")
+    titulo.textContent = producto.nombre
+  
+     //definiendo padres e hijos
+     tarjeta.appendChild(imagen)
+     tarjeta.appendChild(titulo)
+     tarjeta.appendChild(precio)
+     tarjeta.appendChild(popularidad)
+     tarjeta.appendChild(descripcion)
+     columna.appendChild(tarjeta)
+     fila.appendChild(columna)
+})
+
+//tecnica traversing crear etiquetas de html
