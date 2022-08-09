@@ -32,14 +32,14 @@ let productos=[
     },
     {
         nombre:"Bonsai de Ficus",
-        fotos:["https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%237.jpg?alt=media&token=8dd0f584-5503-4894-8bc6-07c7011e5f68","https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%238.jpg?alt=media&token=ece5d340-df9e-4b72-a592-2e502fd9ed5b"],
+        fotos:["https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%237.jpg?alt=media&token=8dd0f584-5503-4894-8bc6-07c7011e5f68","https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/4181e8bd3e1769cb67c0c82e29a3cc99-product12.webp?alt=media&token=77dc7a98-fd34-4237-b0d2-b23936c57e87"],
         precio:10000000,
         popularidad:4,
         descripcion:"Ficus neriifolia se llama ficus a un género compuesto por unas 900 especies vegetales, muchas de ellas arboles y arbustos de buen tamaño.Árbol de hoja perenne, bonito y muy apto para bonsái o mini-bonsái. Fácil de distinguir por la posesión de hojas estrechas y lanceoladas.Nombre latino: Ficus neriifolia Sinónimo: Ficus salicaria .Nombre común: Ficus nerifolia.Familia: Moraceae (Moráceas). Origen: Sudamérica. Luz: Buena iluminación pero evitando el sol directo, especialmente en verano.Si se cultivan en interior, se debe procurar que les dé la mayor cantidad posible de luz natural y artificial posible.Temperaturas: No resiste las heladas. Si se mantiene al aire libre, protegerla de temperaturas inferiores a 12ºC.Evitar los cambios bruscos de temperatura."
     },
     {
         nombre:"Bonsai de Mirto",
-        fotos:["https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%238.jpg?alt=media&token=ece5d340-df9e-4b72-a592-2e502fd9ed5b","https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%2310.jpg?alt=media&token=58241d41-4ef1-45e5-868d-3552475c88ed"],
+        fotos:["https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%2310.jpg?alt=media&token=58241d41-4ef1-45e5-868d-3552475c88ed","https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/4181e8bd3e1769cb67c0c82e29a3cc99-product12.webp?alt=media&token=77dc7a98-fd34-4237-b0d2-b23936c57e87"],
         precio:6000000,
         popularidad:5,
         descripcion:"Murraya paniculata es una planta tropical de hojas perennes pequeñas, flores blancas y perfumadas, que se cultiva como un árbol ornamental o de cobertura, originaria del Sureste de Asiadesde China a Japón y Malasia.La Murraya está estrechamente relacionada con los cítricos. Es un pequeño árbol tropical, de hoja perenne o arbusto que crece hasta 7 m de altura. La planta florece durante todo el año. Sus hojas son glabras y brillantes, produce hojas pinadas que curiosamente son elípticas a obovadas, cuneadas a rómbico. Las flores son terminales, corimbosas, pocas flores, densas y con perfume a jazmín. Los pétalos son 12-18 mm de largo, recurvadas y blancas (o de coloración crema). El fruto de Murraya paniculata es carnoso, oblongo ovoides, de color rojo a naranja, y crece hasta 2 a 3 cm de largo."
@@ -106,12 +106,12 @@ productos.forEach(function(producto){
 
 
     //creando  popularidad
-    let  popularidad = document.createElement("p")
+    let  popularidad = document.createElement("q")
     popularidad.classList.add("fw-bold")
     popularidad.textContent = producto.popularidad
 
     //creando descripcion
-let descripcion = document.createElement("p")
+let descripcion = document.createElement("s")
 descripcion.classList.add("text-danger","d-none")
 descripcion.textContent = producto.descripcion
 
