@@ -8,8 +8,10 @@ contenedorProducto.addEventListener("click",function (evento) {
         informacionProducto.precio=(evento.target.parentElement.querySelector("p").textContent)
         informacionProducto.popularidad=(evento.target.parentElement.querySelector("q").textContent)
         informacionProducto.descripcion=(evento.target.parentElement.querySelector("s").textContent)
+        informacionProducto.foto=(evento.target.parentElement.querySelector("img").src)
 // guargando un objeto en memoria
-        localStorage.setItem(JSON.stringify("producto",informacionProducto))
+       
+        localStorage.setItem("producto",JSON.stringify(informacionProducto))
 
         window.location.href="./ampliarInf.html"
     }

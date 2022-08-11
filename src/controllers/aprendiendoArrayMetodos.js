@@ -26,7 +26,7 @@ let productos=[
     {
         nombre:"Bonsai de Sombrero",
         fotos:["https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%235.jpg?alt=media&token=4870d0ad-54f4-42be-b95d-7f78e45c5730","https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%236.jpg?alt=media&token=9e67f9fc-0b58-4f2b-8f45-2c8927fa3584"],
-        precio:4,
+        precio:40000000,
         popularidad:5,
         descripcion:"La especie es originaria de Arunachal Pradesh, Assam, Bhutan, Darjeeling, Himachal  radesh, India, Jammu-Kashmir, Myanmar, Nepal, Sikkim y Uttaranchal, donde vive en las pendientes del Himalaya entre los 900 y 3000 m de altitud.El género está dedicado al botánico danés Johan Theodor Holmskiold (1731-1793); el  nombre de la especie es el adjetivo latino “sanguineus, a, um”= color sangre, con obvia referencia. Nombres comunes: chinaman’s hat, chinese hat plant, cup-and-saucer-plant, hat plant, mandarin’s hat, parasol flower (inglés); chapeau chinois (francés); cappello cinese(italiano); chapéu-chinês, chapéu-chinês-amarelo,chapéu-chinês-vernelho, chapéu-de-mandarim(portugués); bonete chino, paragüita chino, platillo, sombrilla china español).La Holmskioldia sanguinea Retz. (1791) es un arbusto siempre verde leñoso alto hasta cerca 5 m con largas. La Holmskioldia sanguinea es un arbusto tropical de 5 m con insólitas inflorescencias © Giuseppe Mazza ramas arqueadas, las jóvenes ligeramente pubescentes y en sección prácticamente cuadrangular. Las hojas son opuestas, ovadas o deltoides, con ápice largamente puntiagudo, ligeramente pubescentes, largas 5-12 cm y anchas 3-8 cm, con margen entero o ligeramente dentado, de color verde oscuro."
     },
