@@ -32,6 +32,18 @@ descripcion.textContent=producto.descripcion
 let pildora=document.getElementById("pildora")
 console.log(pildora.textContent)
 
+
+
+//detectar la popularidad
+let estrellas=document.getElementById("estrellas")
+for(let i=1; i<=producto.popularidad;i++){
+    let estrella=document.createElement("i")
+    estrella.classList.add("bi","bi-star-fill")
+
+    estrellas.appendChild(estrella)
+
+}
+
 //escucho en el boton Agregar Carrito
 let botonCarrito=document.getElementById("botonAgregarCarrito")
 botonCarrito.addEventListener("click",function(evento){
@@ -39,11 +51,6 @@ botonCarrito.addEventListener("click",function(evento){
     let cantidad=document.getElementById("cantidadProducto")
     cantidad=cantidad.value
     
-
-    
-   
-
-
     // agregamos la cantidad al objeto producto
     producto.cantidad=cantidad
     console.log(producto)
