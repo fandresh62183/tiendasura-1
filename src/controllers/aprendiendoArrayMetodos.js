@@ -95,7 +95,7 @@ productos.forEach(function(producto){
 
     //creando una imagen
     let imagen = document.createElement("img")
-    imagen.classList.add("img-fluid","w-100","p-5")
+    imagen.classList.add("img-fluid","w-100","p-2")
     imagen.src = producto.fotos[0]
 
     //creando precio

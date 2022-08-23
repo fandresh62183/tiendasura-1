@@ -24,9 +24,42 @@
     font-family: 'Just Another Hand', cursive;
     font-family: 'Kalam', cursive;
     
+    
 }
   .estrellas {
     color: orange;
   }
   
+  .bodyfondo{
+   background-image: url(../img/pexels-felix-mittermeier-1080400.jpg);
+   background-size: 100% 100%;
+  }
  
+  .indexhtmlBIENVENIDO{
+    color:rgb(21, 237, 32);
+  }
+  .indexhtmlparrafo{
+    font-size: 20px;
+  }
+  .footer{box-shadow: 2px 3px 12px 3px;
+    text-align: center;
+
+    height:150px;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:   rgb(21, 237, 32);
+    text-align: end;
+}
+.indexhtmlAMBIENTENATURAL{
+  color:rgb(21, 237, 32) ;
+}
+.indexhtmlfondo{
+  background-color: rgb(190, 241, 203);
+  background-size:100% 100%;
+}
+.indexhtmlderecho{
+  text-align: center;
+}
+.facebook, .instagram, .twitter{
+  font-size:50px;
+}
