@@ -106,9 +106,20 @@ productos.forEach(function(producto){
 
 
     //creando  popularidad
-    let  popularidad = document.createElement("q")
-    popularidad.classList.add("fw-bold")
+    let  popularidad = document.createElement("h5")
+    popularidad.classList.add("d-none")
     popularidad.textContent = producto.popularidad
+
+    //detectar la popularidad
+let estrellas=document.createElement("div")
+for(let i=1; i<=producto.popularidad;i++){
+    let estrella=document.createElement("i")
+    estrella.classList.add("bi","bi-star-fill","text-warning")
+    
+
+    estrellas.appendChild(estrella)
+
+}
 
     //creando descripcion
 let descripcion = document.createElement("s")
@@ -138,6 +149,7 @@ descripcion.textContent = producto.descripcion
      tarjeta.appendChild(titulo)
      tarjeta.appendChild(precio)
      tarjeta.appendChild(popularidad)
+     tarjeta.appendChild(estrellas)
      tarjeta.appendChild(descripcion)
      columna.appendChild(tarjeta)
      fila.appendChild(columna)

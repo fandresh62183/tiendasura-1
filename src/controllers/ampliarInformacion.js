@@ -6,7 +6,7 @@ contenedorProducto.addEventListener("click",function (evento) {
     if(evento.target.classList.contains("img-fluid")){
        informacionProducto.nombre=(evento.target.parentElement.querySelector("h3").textContent)
         informacionProducto.precio=(evento.target.parentElement.querySelector("p").textContent)
-        informacionProducto.popularidad=(evento.target.parentElement.querySelector("q").textContent)
+        informacionProducto.popularidad=(evento.target.parentElement.querySelector("h5").textContent)
         informacionProducto.descripcion=(evento.target.parentElement.querySelector("s").textContent)
         informacionProducto.foto=(evento.target.parentElement.querySelector("img").src)
 // guargando un objeto en memoria
@@ -17,11 +17,3 @@ contenedorProducto.addEventListener("click",function (evento) {
     }
     }
 )
-let estrellas=document.getElementById("estrellas")
-for(let i=1; i<=producto.popularidad;i++){
-    let estrella=document.createElement("i")
-    estrella.classList.add("bi","bi-star-fill")
-
-    estrellas.appendChild(estrella)
-
-}
