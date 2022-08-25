@@ -17,4 +17,11 @@ contenedorProducto.addEventListener("click",function (evento) {
     }
     }
 )
+let estrellas=document.getElementById("estrellas")
+for(let i=1; i<=producto.popularidad;i++){
+    let estrella=document.createElement("i")
+    estrella.classList.add("bi","bi-star-fill")
 
+    estrellas.appendChild(estrella)
+
+}

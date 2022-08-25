@@ -5,8 +5,9 @@
     background-position: top center;
     position: relative;
     z-index:1;
+    
 }
-
+.AmbiNatural, .AmbiNatural1{font-size: 32px;color:rgb(21, 237, 32);}
 .banner::after{
     content: '';
     height: 100%;
@@ -37,30 +38,37 @@
   }
  
   .indexhtmlBIENVENIDO{
-    color:rgb(21, 237, 32);
+    color:rgb(69, 63, 63);
   }
   .indexhtmlparrafo{
-    font-size: 20px;
+    font-size: 20px;color: aliceblue;
   }
   .footer{box-shadow: 2px 3px 12px 3px;
     text-align: center;
-
+    background-color: black;
     height:150px;
    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:   rgb(21, 237, 32);
     text-align: end;
 }
+.divRedes{text-align: center;}
 .indexhtmlAMBIENTENATURAL{
   color:rgb(21, 237, 32) ;
 }
 .indexhtmlfondo{
-  background-color: rgb(190, 241, 203);
+  background-color: rgba(47, 144, 62, 0.548);
   background-size:100% 100%;
 }
 .indexhtmlderecho{
   text-align: center;
 }
-.facebook, .instagram, .twitter{
-  font-size:50px;
+.facebook, .instagram, .twitter, .whatsapp{
+  font-size:50px;margin: 1%;
 }
+.instagram{color: rgb(244, 47, 152);}
+.whatsapp{color: rgb(33, 226, 49);}
+.btn{background-color:rgb(15, 228, 26) ;}
+.Bonsai{background-image: url(../img/pexels-philip-ackermann-1666021.jpg);
+background-size:100% 100%;}
+.offcanvas-body{color:rgb(7, 7, 7);}
