@@ -133,6 +133,9 @@ descripcion.textContent = producto.descripcion
     imagen.addEventListener("mouseleave",function(){
         imagen.src = producto.fotos[0]
     })
+    imagen.addEventListener("click",function (){
+        imagen.src = producto.fotos [0]
+    })
 
     //definiendo padres e hijos
     tarjeta.appendChild(imagen)
