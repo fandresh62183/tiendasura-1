@@ -31,8 +31,7 @@
   <body class="fuente">
     <style></style>
     <header>
-      <nav
-        class="navbar navbar-expand-lg bg-success navbar-dark animate__animated animate__rubberBand"
+      <nav class="navbar navbar-expand-lg bg-success navbar-dark animate__animated animate__rubberBand"
       >
         <div class="container-fluid">
           <a class="AmbiNatural navbar-brand " href="#">AmbiNatural</a>
@@ -58,6 +57,35 @@
                   >Redes sociales</a
                 >
               </li>
+              
+            </ul>
+            <ul class="navbar-nav ms-auto">
+             
+              <li class="nav-item">
+                <a
+                   id=""  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  >Carrito </i></a>
+              </li>
+              <li class="nav-item">
+                <a
+                   id="usuario"  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  >usuario </i></a>
+              </li>
+           
+            
+             
+              <li class="nav-item">
+                <a id="botonSalir"
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  >Salir <i class="bi bi-box-arrow-in-left"></i></a>
+              </li>
+              
             </ul>
           </div>
         </div>
@@ -139,7 +167,7 @@
                 <li><a class="dropdown-item" href="/src/views/Tienda.html">PRODUCTOS</a></li>
 
 
-                <form action="">
+                <form  id="formulario">
                   <div class="mb-3">
                     <label class="form-label">Correo</label>
                     <input type="email" class="form-control" id="Correo" > 
@@ -178,10 +206,16 @@
     </footer>
     <script src="./src/Services/conexionFireBase.js" type="module"></script>
     <script src="./src/Services/registro.js"  type="module"></script>
+    <script src="././src/Services/observadorEstado.js" type="module"></script>
+    <script src="./src/Services/logout.js" type="module"></script>
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    
   </body>
 </html>

@@ -8,6 +8,7 @@ botonRegistro.addEventListener("click",function(evento){
 
    let email=document.getElementById("Correo").value
    let password=document.getElementById("password").value
+   let formulario=document.getElementById("formulario")
    console.log(email,password)
 
    const auth = getAuth();
@@ -16,13 +17,25 @@ createUserWithEmailAndPassword(auth, email, password)
     // Signed in
     const user = userCredential.user;
     // ...
-    alert("Resgistro exitoso")
+    Swal.fire({
+      position: 'top-center',
+      icon: 'success',
+      title: 'Exito en el registro',
+      showConfirmButton: false,
+      timer: 1500
+    })
+    formulario.reset()
   })
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
     // ..
-    alert("upss fallamos "+errorMessage)
+    Swal.fire({
+      icon: 'error',
+      title: 'Upps...',
+      text: errorCode+errorMessage,
+    })
+    
   });
 
 })
