@@ -1,0 +1,6 @@
+carrito compras
+total de compras
+total en pesos a dolares
+limpiar carrito
+registro usuario
+login usuario

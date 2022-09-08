@@ -12,7 +12,7 @@ let productos=[
     {
         nombre:"Bonsai de Junipero",
         fotos:["https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%231.jpg?alt=media&token=5e9c05fc-bdd6-4281-b42e-a0520a69eac0","https://firebasestorage.googleapis.com/v0/b/tiendasurafaha.appspot.com/o/bonsai%232.jpg?alt=media&token=3054d5a6-c63e-47d8-9fd9-c3c2c747284e"],
-        precio:35000000,
+        precio:380000000,
         popularidad:4,
         descripcion:"Nativo del Himalaya, China, nordeste de Afganistán, este a oeste de Yunnan en el sudoeste de China, y con subpoblaciones aisladas en el norte al oeste de Gansu, y este de Fujian. Crece a altitudes de 1.600-4.900 msnm. El Juniperus es un género de más de treinta especies de coníferas arbustivas muy populares y adecuadas para ser utilizadas como Bonsai. La especie clásica es el ‘enebro chino’ (Juniperus chinensis), también populares son: Juniperus Squamata, Sargentii, Sabina, Rigida y Communis. La gama de colores de follaje oscila entre los verdes con tonos azul oscuro y los verdes claros. Estos árboles son muy adecuados para la creación de madera muerta (jin y shari)"
     },
