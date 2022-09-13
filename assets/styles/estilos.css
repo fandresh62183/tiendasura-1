@@ -60,6 +60,11 @@
   background-color: rgba(47, 144, 62, 0.548);
   background-size:100% 100%;
 }
+.fondosection{
+  background-color: rgba(47, 144, 62, 0.548);
+  background-size:100% 100%;
+margin: 0%;
+}
 .indexhtmlderecho{
   text-align: center;
 }
@@ -72,3 +77,5 @@
 .Bonsai{background-image: url(../img/pexels-philip-ackermann-1666021.jpg);
 background-size:100% 100%;}
 .offcanvas-body{color:rgb(7, 7, 7);}
+
+
